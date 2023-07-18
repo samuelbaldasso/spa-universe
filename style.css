@@ -1,0 +1,66 @@
+body {
+  background: url("./assets/mountains.png"), lightgray 50% / cover no-repeat;
+}
+
+body,
+html,
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  gap: 30px;
+  padding: 40px 72px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header nav ul li a:hover {
+  font-weight: 700;
+}
+
+#content,
+.universe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.universe {
+  margin-top: 60px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 102px;
+  width: 648px;
+}
+
+p {
+  color: #fff;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+h1 {
+  color: #fff;
+  font-size: 48px;
+}
+
+button {
+  background-color: transparent;
+  padding: 12px 32px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+}

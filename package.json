@@ -1,0 +1,23 @@
+{
+  "name": "spa-universe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "lite": "^4.0.5",
+    "lite-server": "^2.6.1",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "server": "^1.0.38"
+  }
+}
